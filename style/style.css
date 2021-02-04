@@ -82,7 +82,7 @@ button:focus {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  background: url(/src/img/mainBG.jpg) top center/cover;
+  background: url(../src/img/mainBG.jpg) top center/cover;
 }
 
 .header::after {
@@ -100,7 +100,7 @@ button:focus {
 .header-nav {
   position: relative;
   padding: 27px 0;
-  background: url(/src/img/mainBG_header.jpg) top center/cover;
+  background: url(../src/img/mainBG_header.jpg) top center/cover;
 }
 
 .header-nav::after {
@@ -643,7 +643,7 @@ button:focus {
 }
 
 .checkbox input[type=checkbox]:checked {
-  background: url(/src/img/icons/check.svg) #FF7E61 center center no-repeat;
+  background: url(../src/img/icons/check.svg) #FF7E61 center center no-repeat;
 }
 
 .focused input[type=checkbox] {
@@ -686,7 +686,8 @@ button:focus {
 
 .consultation {
   padding: 70px 0;
-  background: url(/src/img/firstofallBg.jpg) center center/cover;
+  background: url(../src/img/firstofallBg.jpg) center center/cover;
+  background-color: #76767c;
 }
 
 .consultation__title {
@@ -883,7 +884,7 @@ button:focus {
   line-height: 1.2;
   text-align: center;
   color: #242C3D;
-  background: url(/src/img/icons/shevron_orange.svg) center right 10px no-repeat;
+  background: url(../src/img/icons/shevron_orange.svg) center right 10px no-repeat;
   border: 1px solid #C4C4C4;
   border-radius: 10px;
   -webkit-appearance: none;
@@ -1095,7 +1096,7 @@ button:focus {
 }
 
 .header-terms {
-  background: url(/src/img/mainBG.jpg) top center/cover;
+  background: url(../src/img/mainBG.jpg) top center/cover;
 }
 
 .product {
@@ -1543,7 +1544,7 @@ button:focus {
 }
 @media screen and (max-width: 768px) {
   .header {
-    background-image: url(/src/img/mainBG_mob.jpg) center top/cover;
+    background-image: url(../src/img/mainBG_mob.jpg) center top/cover;
     background-color: rgba(90, 67, 62, 0.3);
   }
 
