@@ -1399,6 +1399,10 @@ button:focus {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+.info-sec__title {
+  font-size: calc(26px + 14 * ((100vw - 320px) / (1920 - 320)));
+}
 @keyframes widget {
   0% {
     box-shadow: 0 0 0 0 rgba(255, 92, 56, 0.4);

@@ -1507,6 +1507,9 @@ button:focus {
     -webkit-animation-direction: alternate;
             animation-direction: alternate;
 }
+.info-sec__title {
+    font-size: calc(26px + 14 * ((100vw - 320px) / (1920 - 320)));
+}
 @-webkit-keyframes widget {
     0% {
         -webkit-box-shadow: 0 0 0 0 rgba(255, 92, 56, 0.4);
