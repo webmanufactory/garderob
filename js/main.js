@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$("a#single_image").fancybox({
+	$("a.single_image").fancybox({
 		openEffect	: 'fade',
 		closeEffect	: 'fade',
 		keyboard: true,
